@@ -13,7 +13,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { updateTask } from "../services/TaskService"
+import { updateTask } from "../services/taskService"
 
 const props = defineProps({
     id: Number,

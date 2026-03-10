@@ -5,7 +5,7 @@
 
 <script setup>
 import Task from './Task.vue';
-import { getAllTaskFromList, createTask, deleteTask } from "../services/TaskService"
+import { getAllTaskFromList, createTask, deleteTask } from "../services/taskService"
 import { ref, onMounted } from 'vue';
 
 const props = defineProps({
