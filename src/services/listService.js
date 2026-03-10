@@ -1,9 +1,9 @@
 import axios from 'axios'
-
-const BASEURL = "http://localhost:3000"
+const BASEURL = 'https://todolistbackend-production-611d.up.railway.app'//import.meta.env.VITE_BASE_URL
 
 export async function getAllList() {
     const { data } = await axios.get(BASEURL + "/list");
+    console.log(data)
     return data
 }
 
